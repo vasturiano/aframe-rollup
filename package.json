@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c -o build.js -- index.js"
   },
   "dependencies": {
     "aframe": "^0.5.0"
